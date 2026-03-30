@@ -62,8 +62,10 @@ O projeto está dividido em módulos para melhor organização:
 
 Abra o terminal (ou Git Bash) e execute:
 
-```bash
- git clone https://github.com/Victor20t/Esta-o-Meteorol-gica.git 
+
+ ```bash 
+ git clone https://github.com/Victor20t/Esta-o-Meteorol-gica.git
+ ```
 
 
 ### Pré-requisitos
