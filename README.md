@@ -43,15 +43,28 @@ O sistema possui as seguintes funcionalidades:
 O projeto está dividido em módulos para melhor organização:
 📁 projeto/
 │
+
 ├── main.py # Interface e menu do sistema
+
 ├── services.py # Regras de negócio e cálculos
+
 ├── utils.py # Validações de entrada
+
 ├── dados.py # Armazenamento das medições
+
 └── README.md
 
 ---
 
-## Como executar o projeto
+## ## Como executar o projeto
+
+###  Clonar o repositório
+
+Abra o terminal (ou Git Bash) e execute:
+
+```bash
+ git clone https://github.com/Victor20t/Esta-o-Meteorol-gica.git 
+
 
 ### Pré-requisitos
 
