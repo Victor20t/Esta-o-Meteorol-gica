@@ -74,17 +74,7 @@ Abra o terminal (ou Git Bash) e execute:
 
 ---
 
-### Clonar o repositório
-
-
-Abra o terminal (ou Git Bash) e execute:
-
-Executar o sistema
-
-Execute o arquivo principal:
-python main.py ou python3 main.py
-
-Como usar o sistema
+### Como usar o sistema
 
 Ao iniciar o programa, será exibido um menu com as opções:
 
