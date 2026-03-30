@@ -48,13 +48,16 @@ def calcular_quantidade_total_chuva(medicoes):
 def verificar_alertas(medicao):
     alertas = []
 
-    if medicao['temperatura'] > 35:
+    if medicao['temperatura'] >= 35:
         alertas.append("ALERTA: Calor extremo detectado!")
 
-    if medicao['vento'] > 40:
+    if medicao['temperatura'] <= 5:
+        alertas.append("ALERTA: Temperatura muito baixa!")
+
+    if medicao['vento'] >= 40:
         alertas.append("ALERTA: Vento forte detectado!")
 
-    if medicao['chuva'] > 20:
+    if medicao['chuva'] >= 20:
         alertas.append("ALERTA: Chuva intensa detectada!")
 
     return alertas
